@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_klimtwifi
-PRODUCT_DEVICE := klimtwifi
+PRODUCT_NAME := omni_klimtlte
+PRODUCT_DEVICE := klimtlte
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Tab S 8.3 WIFI
+PRODUCT_MODEL := Tab S 8.3 LTE
 PRODUCT_MANUFACTURER := Samsung
 
