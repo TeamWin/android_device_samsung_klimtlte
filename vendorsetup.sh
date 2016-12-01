@@ -1,1 +1,1 @@
-add_lunch_combo omni_klimtlte-userdebug
+add_lunch_combo omni_klimtlte-eng
