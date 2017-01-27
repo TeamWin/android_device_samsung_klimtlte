@@ -61,30 +61,9 @@ void vendor_load_properties()
 	} else if (strstr(bootloader, "T701")) {
 		/* 3G */
 		set_device("3g", "xx", "SM-T701");
-	} else if (strstr(bootloader, "T707A")) {
-		/* AT&T */
-		set_device("lte", "att", "SM-T707A");
-	} else if (strstr(bootloader, "T707P")) {
-		/* Sprint */
-		set_device("lte", "spr", "SM-T707P");
 	} else if (strstr(bootloader, "T707T")) {
 		/* T-Mobile */
 		set_device("lte", "tmo", "SM-T707T");
-	} else if (strstr(bootloader, "T707R4")) {
-		/* US Cellular */
-		set_device("lte", "usc", "SM-T707R4");
-	} else if (strstr(bootloader, "T707V")) {
-		/* Verizon */
-		set_device("lte", "vzw", "SM-T707V");
-	} else if (strstr(bootloader, "T705K")) {
-		/* Olleh (KT) */
-		set_device("lte", "ktt", "SM-T705K");
-	} else if (strstr(bootloader, "T705L")) {
-		/* LG Uplus */
-		set_device("lte", "lgt", "SM-T705L");
-	} else if (strstr(bootloader, "T705S")) {
-		/* SK Telecom */
-		set_device("lte", "skt", "SM-T705S");
 	} else if (strstr(bootloader, "T707D")) {
 		/* DoCoMo */
 		set_device("lte", "dcm", "SM-T707D");
